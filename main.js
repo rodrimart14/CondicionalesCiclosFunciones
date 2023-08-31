@@ -12,8 +12,18 @@
 //EJERCICIO 2//
 
 
+//function mayorYmenor(a, b) {
+    //if (a > b) {
+        //console.log(`${a} es mayor a ${b}`);
+    //} else if (b > a) {
+        //console.log(`${b} es mayor a ${a}`);
+    //} else {
+        //console.log(`${a} y ${b} son iguales`);
+    //}
+    
+//}
 
-
+//mayorYmenor (3, 6);
 
 //EJERCICIO 3//
 
@@ -37,13 +47,13 @@
 
 //EJERCICIO 5//
 
-function sumar(){
-    let palabra = "hola"
-    let number = 5
-        resultado = palabra + number;
-    //console.log("el resultado" + resultado);
-}
+//function sumar(palabra, cantidad){
+    //for (let i = 0; i < cantidad; i++) {
+    //console.log(palabra);
+    //}   
+//}
 
+//sumar("boca", 7)
 
 
 
@@ -58,20 +68,24 @@ function sumar(){
 
 //EJERCICIO 7//
 
-//const miArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const miArray = (array) => {
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] !== array[4]) {
+            console.log(array[i]);
+        }
+    }
+}
 
-    //console.log(miArray[0]);
-    //console.log(miArray[1]);
-    //console.log(miArray[2]);
-    //console.log(miArray[3]);
-    //console.log(miArray[5]);
-    //console.log(miArray[6]);
-    //console.log(miArray[7]);
-    //console.log(miArray[8]);
-    //console.log(miArray[9]);
-
-
+miArray[1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+   
 
 //EJERCICIO 8//
 
+//const funcionOcho = (array, num) => {
+    //for (let i = 0; i < array.length; i++) {
+        //console.log(array[i] + num);
+    //}
+//}
 
+//funcionOcho[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+ 
